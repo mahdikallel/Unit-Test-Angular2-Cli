@@ -36,4 +36,6 @@ export class AppComponent {
 
 
   private somme:number;
+  
+  //
 }
