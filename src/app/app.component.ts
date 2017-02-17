@@ -10,4 +10,14 @@ export class AppComponent {
   subtitle = 'hello';
    time=60 ;
 
+
+
+
+
+
+
+
+
+
+  private x:string;
 }
