@@ -56,5 +56,6 @@ describe('TestcomponentComponent', () => {
     testComp.downNumber();
     expect(testComp.myNumber).toBe(0);
     /*unit test */
+    var n:number;
   });
 });
