@@ -55,14 +55,11 @@ describe('TestcomponentComponent', () => {
   it('it should  decrement myNumber', () => {
     testComp.downNumber();
     expect(testComp.myNumber).toBe(0);
-<<<<<<< HEAD
-    /*unit test */
+
     var n:number;
-=======
     /*---------------*/
     /*---------------*/
     /*---------------*/
 
->>>>>>> a1110a420127e091c0dbf2881a145029b7ab411a
   });
 });
