@@ -1,0 +1,9 @@
+[0217/004321.856:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\settings.dat: Accès refusé. (0x5)
+[0217/004322.872:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[0217/004323.027:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0217/004625.117:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\settings.dat: Accès refusé. (0x5)
+[0217/004625.176:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[0217/004625.230:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0217/085130.437:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\settings.dat: Accès refusé. (0x5)
+[0217/085130.514:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[0217/085130.678:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled

@@ -48,7 +48,7 @@ describe('TestcomponentComponent', () => {
 
     testComp.upNumber();
     //console.log("it should increment");
-    expect(testComp.myNumber).toBe(10);
+    expect(testComp.myNumber).toBe(1);
     /**/
   });
 
@@ -56,10 +56,13 @@ describe('TestcomponentComponent', () => {
     testComp.downNumber();
     expect(testComp.myNumber).toBe(0);
     /*unit test */
+
+
     var n:number;
     /*---------------*/
     /*---------------*/
     /*---------------*/
+
 
   });
 });
