@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
-
+  subtitle = 'hello';
    time=60 ;
 
 }
