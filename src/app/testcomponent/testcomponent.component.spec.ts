@@ -55,6 +55,8 @@ describe('TestcomponentComponent', () => {
   it('it should  decrement myNumber', () => {
     testComp.downNumber();
     expect(testComp.myNumber).toBe(0);
-    /**/
+    /*---------------*/
+    /*---------------*/
+    /*---------------*/
   });
 });
