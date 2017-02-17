@@ -20,5 +20,20 @@ export class AppComponent {
 
 
   private x:string;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   private somme:number;
 }
