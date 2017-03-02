@@ -28,6 +28,8 @@ describe('TestcomponentComponent', () => {
 
 
   it('should sayHello', () => {
+
+
     let testComp = new TestcomponentComponent();
     testComp.firstName = 'Mahdi';
     testComp.lastName = 'kallel';
@@ -36,10 +38,13 @@ describe('TestcomponentComponent', () => {
   });
 
   it('should calculate', () => {
+    //Arrange
     let testComp = new TestcomponentComponent();
+    //Act
     testComp.a = 2;
     testComp.b = 5;
-    expect(testComp.calculate(testComp.a, testComp.b)).toBe(7);
+    //Assertion
+    expect(testComp.calculate(testComp.a, testComp.b)).toBe(9);
     /**/
   });
   let testComp = new TestcomponentComponent();

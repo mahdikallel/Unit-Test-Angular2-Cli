@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
   subtitle = 'hello';
-   time=60 ;
+   time : number =55 ;
 
 
 
@@ -36,4 +36,18 @@ export class AppComponent {
 
 
   private somme:number;
+
+  addNumber(){
+
+
+
+
+    this.printConsole();
+
+  }
+
+  private printConsole() {
+    console.log("mahdi kallel");
+    console.log("ahmed");
+  }
 }

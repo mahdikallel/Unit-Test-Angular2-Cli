@@ -5,10 +5,14 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { HighlightDirective } from './highlight.directive';
+import {TestcomponentComponent} from "./testcomponent/testcomponent.component";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HighlightDirective,
+    TestcomponentComponent
   ],
   imports: [
     BrowserModule,
