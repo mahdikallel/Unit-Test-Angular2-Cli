@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,46 +8,17 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
   subtitle = 'hello';
-   time : number =55 ;
+  time: number = 55;
+  private x: string;
+  private somme: number;
 
-
-
-
-
-
-
-
-
-
-  private x:string;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  private somme:number;
-
-  addNumber(){
-
-
-
-
+  addNumber() {
     this.printConsole();
-
   }
 
   private printConsole() {
     console.log("mahdi kallel");
     console.log("ahmed");
   }
+
 }
