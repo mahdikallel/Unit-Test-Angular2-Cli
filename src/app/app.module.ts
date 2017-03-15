@@ -7,12 +7,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HighlightDirective } from './highlight.directive';
 import {TestcomponentComponent} from "./testcomponent/testcomponent.component";
+import { ContactComponent } from './contact/contact.component';
+import { MyPipe } from './my.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HighlightDirective,
-    TestcomponentComponent
+    TestcomponentComponent,
+    ContactComponent,
+    MyPipe
   ],
   imports: [
     BrowserModule,
